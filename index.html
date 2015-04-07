@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+<!-- favicon -->
+     <link rel="shortcut icon" href="http://jamiesurdykowski.com/favicon.ico" type="image/x-icon" />
+
+    <title>Jamie Surdykowski.</title>
+
+   <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+
+
+            <ul class="sidebar-nav">
+                <li>
+                    <a href="index.html"><img class="logo" src="smallLogo.png" width="20%" height="20%"></a></li>
+                    
+                <li>
+                    <a href="#">WORK</a>
+                </li>
+                <li>
+                    <a href="#">PROCESS</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/jamiesurdy?lang=en">TWITTER</a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/jamiesurdy/">INSTAGRAM</a>
+                </li>
+                
+                <li>
+                    <a href="https://www.linkedin.com/pub/jamie-surdykowski/5/814/462">LINKEDIN</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                      <div id="logo" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <a href="index.html"><img class="logoTop" src="jamieLatoLogo.png"></a>
+                      </div>
+
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">MENU</a>
+                        <!--<p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p> -->
+                    <div id="middlecontainer">
+                        <div class="row-fluid">
+                            <div id="Work" class="col-xs-12 col-sm-12 col-md-12">
+                                <div id="overlay" class="col-xs-12 col-sm-12 col-md-12">
+                                    <span id="text">RECENT WORK</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row-fluid">
+                            <div id="Process" class="col-xs-12 col-sm-8">
+                                <div id="overlay" class="col-xs-12 col-sm-8">
+                                    <span id="text">PROCESS</span>
+                                </div>
+                            </div>
+
+                            <div id="About" class="col-xs-12 col-sm-4">
+                                  <div id="overlay" class="col-xs-12 col-sm-4">
+                                    <a class="Socialclick" href="about.html">
+                                    <span id="text">ABOUT JAMIE</span></a>
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="row-fluid">
+                            <div id="Twitter" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                              <div id="overlay" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                <a class="Socialclick" href="https://twitter.com/jamiesurdy?lang=en">
+                                    <span id="text">TWITTER</span></a>
+                                </div> 
+                            </div>
+
+                            <div id="Instagram" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                               <div id="overlay" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                <a class="Socialclick" href="https://instagram.com/jamiesurdy/">
+                                    <span id="text">INSTAGRAM</span></a>
+                               </div> 
+                            </div>
+
+                            <div id= "LinkedIn" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <div id="overlay" class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <a class="Socialclick" href="https://www.linkedin.com/pub/jamie-surdykowski/5/814/462">
+                                    <span id="text">LINKEDIN</span></a>
+                                </div> 
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
